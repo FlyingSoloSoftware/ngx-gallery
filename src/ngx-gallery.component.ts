@@ -59,7 +59,6 @@ export class NgxGalleryComponent implements OnInit, DoCheck, AfterViewInit   {
     @ViewChild(NgxGalleryImageComponent) image: NgxGalleryImageComponent;
     @ViewChild(NgxGalleryThumbnailsComponent) thubmnails: NgxGalleryThumbnailsComponent;
 
-    @HostBinding('style.width') width: string;
     @HostBinding('style.height') height: string;
     @HostBinding('style.left') left: string;
 
